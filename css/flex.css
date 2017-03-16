@@ -1,0 +1,98 @@
+
+.home-sections {
+  margin-left: 200px;
+  display: flex;
+  flex: 1;
+}
+/***need read up on flexbox***/
+
+/**columns**/
+.grid {
+  flex: 1;
+}
+section {
+  padding: 50px 0;
+}
+.col {
+  max-width: 300px;
+  margin: 0 10px;
+  /*background: pink;*/
+}
+
+.col-two {
+  max-width: 620px;
+  margin: 0 10px;
+  /*background: honeydew;*/
+}
+
+.col50 {
+  width: 50%;
+  /*background: gray;*/
+}
+.push-left {
+  margin-left: 330px;
+}
+.flex {
+  display: flex;
+  flex-direction: rows;
+  /*justify-content: center;*/
+}
+.flex--center {
+  justify-content: center;
+}
+.flex--space-around {
+  justify-content: space-around;
+}
+
+.order-first {
+  order: -1;
+}
+
+@media (min-width:1595px) and (max-width: 2560px){
+  .col {
+    max-width: 450px;
+  }
+  canvas#chartPortfolio {
+    margin-left: 52px;
+}
+.col-two {
+  max-width: 900px;
+}
+.fullcol2 {
+  margin-top:25px;
+  margin-bottom:25px;
+}
+.lab-image {
+  margin-left: 0;
+}
+.fb-cta {
+  margin-top: 72px;
+}
+
+}
+
+@media (max-width: 840px) {
+  .home-sections {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid .flex {
+    display: block;
+
+  }
+  .col {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+  .col50 {
+    width:auto;
+  }
+  .push-left {
+    margin-left: auto;
+  }
+  .col-two {
+    margin: 0 20px;
+  }
+}
