@@ -518,6 +518,7 @@ canvas#chartPortfolio {
     bottom: auto;
     flex-direction: row;
     align-items: center;
+    box-shadow: none;
   }
       .titleheader {
         margin-top: 0;
