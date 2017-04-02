@@ -124,13 +124,23 @@
         </div>
 
       </section>
-      <section class="contact">
+      <section class="contact" id="nav-contact">
         <div class="flex flex--space-around">
           <div class="col-two">
             <p class="section-lead contact-h">Contact</p>
             <p class="contact-p">Feel free to contact me… Don’t be shy… Maybe by talking, you may find your answer! </p>
+            <form action="https://formspree.io/mowebcanvas@gmail.com" method="POST">
+            <div class="contact-info-group">
+            <label><span class="contact-span" placeholder="Name">Name</span>
+            <input type="text" name="name"></label>
+            <label><span class="contact-span">Email</span>
+            <input type="email" name="_replyto"></label>
           </div>
-
+            <label><span class="contact-span">Messsage</span>
+            <textarea name="message"></textarea></label>
+            <input id="sub" type="submit" value="Send">
+            </form>
+          </div>
         </div>
       </section>
 
