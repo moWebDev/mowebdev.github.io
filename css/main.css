@@ -484,7 +484,6 @@ form input, select, textarea{
     background-color: #772935;
 }
 form textarea:focus, input:focus {
-  border-bottom: 3px solid #eeeeee;
   border-top: none;
   border-left: none;
   border-right: none;
