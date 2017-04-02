@@ -184,37 +184,6 @@ header {
       text-decoration: none;
     }
 
-
-/*.mobile-nav-toggle span {
-content: "";
-display: block;
-height: 2px;
-background: #eeeeee;
-position: relative;
-}
-.mobile-nav-toggle span::before {
-content: "";
-display: block;
-height: 2px;
-background: #eeeeee;
-position: relative;
-}
-
-.mobile-nav-toggle span::after {
-content: "";
-display: block;
-height: 2px;
-background: #eeeeee;
-position: relative;
-}
-
-.mobile-nav-toggle span::before {
-  top: 15px
-}
-.mobile-nav-toggle span::after {
-  bottom: 17px;
-}*/
-
 /********************Content Sections**************************/
 
 /*****Top Section*******/
@@ -361,6 +330,9 @@ canvas#chartPortfolio {
 }
 .right-mobile-left-box {
   margin-top: 70px;
+}
+.work-mobile {
+  display: none;
 }
 .work-cta {
   margin-top: 7px;
@@ -582,6 +554,13 @@ canvas#chartPortfolio {
 }
 .para-skills, .rightside {
   text-align: left;
+}
+.work-mobile {
+  display: block;
+  margin-top: -25px;
+}
+.work-full {
+  display: none;
 }
 .lab-image {
   max-width: 100%;
