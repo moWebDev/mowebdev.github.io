@@ -349,8 +349,6 @@ canvas#chartPortfolio {
 }
 .scr {
   max-width: 100%;
-  /*padding: 20px 0;*/
-  margin-top: 45px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -360,6 +358,9 @@ canvas#chartPortfolio {
 .scr-text {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+}
+.right-mobile-left-box {
+  margin-top: 70px;
 }
 .work-cta {
   margin-top: 7px;
