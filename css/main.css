@@ -4,6 +4,12 @@ body {
   font-family: 'Open Sans',sans-serif;
 }
 
+h1, h2, p {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
 /**header and navigation as a side bar**/
 header {
   width: 200px;
