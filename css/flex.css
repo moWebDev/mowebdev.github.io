@@ -48,6 +48,29 @@ section {
   order: -1;
 }
 
+/****sections height*******/
+
+.section-1 {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.section-2 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.section-3 {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+.section-5 {
+  margin-top: 4.5em;
+  margin-bottom: 4.6em;
+}
+.section-6 {
+  margin-top: 2.6em;
+  margin-bottom: 2.6em;
+}
+
 @media (min-width:1595px) and (max-width: 2560px){
   .col {
     max-width: 450px;
