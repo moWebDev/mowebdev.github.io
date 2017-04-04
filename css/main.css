@@ -162,7 +162,7 @@ header {
       display: none;
       position: absolute;
       width: 100%;
-      background-color: #10133b;
+      background-color: #033342;
       z-index: 999;
       padding: 5px 0 10px;
       margin-top: 302px;
@@ -183,12 +183,12 @@ header {
       text-align: center;
       margin-bottom: 5px;
       font-family: 'Lato', sans-serif;
-      color:#cbb997;
+      color:#eeeeee;
       font-size: 18px;
 
     }
     .mobile-nav ul li a {
-      color:#cbb997;
+      color:#eeeeee;
     }
     .mobile-nav ul li a:hover {
       color: #49adc1;
