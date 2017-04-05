@@ -77,8 +77,8 @@ header {
       color: #49adc1;
       text-decoration: none;
     }
-    nav ul li a:active {
-      color: #49adc1;
+    nav ul li a:active, nav ul li a:focus {
+      color: #16b3c6;
       text-decoration: none;
     }
     /**mobile menu**/
@@ -554,6 +554,47 @@ label {
   padding-left: 5px;
 }
 
+/******************Portfolio page***************************/
+.hero-work {
+  background-color: #16b3c6;
+}
+.section-a {
+  margin-top: 5em;
+  margin-bottom:5em;
+}
+.hero-top h2 {
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.hero-top h2 {
+  padding-bottom: 0;
+}
+.hero-top p {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.box-a {
+  border: solid #eeeeee 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 1.3em;
+}
+.return {
+  margin-left: 20px;
+  padding-top:
+
+
+}
+.reply-color {
+  color: #eeeeee;
+  background-color: #00a89a;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  border-radius: 50%;
+  padding: 10px;
+
+}
 
 @media (max-width: 1100px) {
   h2 {

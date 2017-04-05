@@ -1,5 +1,5 @@
 
-.home-sections {
+.home-sections, .work-page {
   margin-left: 200px;
   display: flex;
   flex: 1;
@@ -101,7 +101,7 @@ section {
 }
 
 @media (max-width: 840px) {
-  .home-sections {
+  .home-sections, .work-page {
     margin-left: 0;
   }
 }
