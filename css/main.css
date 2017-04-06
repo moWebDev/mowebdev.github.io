@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: 'Open Sans',sans-serif;
 }
+.portfolio-page {
+  background-color: #ffffff;
+}
 
 h1, h2, p {
   -webkit-font-smoothing: antialiased;
@@ -193,6 +196,9 @@ header {
     .mobile-nav ul li a:hover {
       color: #49adc1;
       text-decoration: none;
+    }
+    .pm-nav {
+      margin-top: 335px;
     }
 
 /********************Content Sections**************************/
@@ -586,6 +592,7 @@ label {
 .project-title {
   font-size: 2rem;
   text-align: center;
+  color: #605f68;
 }
 
 @media (max-width: 1100px) {
