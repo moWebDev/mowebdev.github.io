@@ -556,7 +556,9 @@ label {
 
 /******************Portfolio page***************************/
 .hero-work {
-  background-color: #16b3c6;
+  background-image: url(../images/road.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 .section-a {
   margin-top: 5em;
@@ -576,24 +578,14 @@ label {
   padding-top: 30px;
 }
 .box-a {
-  border: solid #eeeeee 4px;
+  border: solid #eeeeee 3px;
   box-sizing: border-box;
   padding: 10px;
-  border-radius: 1.3em;
 }
-.return {
-  margin-left: 20px;
-  padding-top:
 
-
-}
-.reply-color {
-  color: #eeeeee;
-  background-color: #00a89a;
-  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
-  border-radius: 50%;
-  padding: 10px;
-
+.project-title {
+  font-size: 2rem;
+  text-align: center;
 }
 
 @media (max-width: 1100px) {
@@ -632,7 +624,7 @@ label {
       }
       .logo-sm img {
         border-radius: 50%;
-        border: 2px solid #c3b292;
+        border: 2px solid #eeeeee;
         max-width: 80px;
       }
       .mobile-nav-toggle {

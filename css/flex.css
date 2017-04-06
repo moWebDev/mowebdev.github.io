@@ -48,6 +48,33 @@ section {
   order: -1;
 }
 
+/*****three column grid******/
+.group {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+}
+.grid-three {
+  display: flex;
+  flex-flow: row wrap;
+}
+.xtest {
+  flex: 1 0 33.33%;
+  min-width: 340px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.a1 {
+  background: honeydew;
+}
+.b1 {
+  background: pink;
+}
+.c1 {
+  background: orange;
+}
 /****sections height*******/
 
 .section-1 {
@@ -77,27 +104,58 @@ section {
   }
   canvas#chartPortfolio {
     margin-left: 52px;
+  }
+  .col-two {
+    max-width: 900px;
+  }
+  .fullcol2 {
+    margin-top:25px;
+    margin-bottom:25px;
+  }
+  .col.push-left.full-width-col {
+    max-width: 530px;
+  }
+  .home-lead {
+      margin-left: 225px;
+  }
+  .lab-image {
+    margin-left: 0;
+  }
+  .fb-cta {
+    margin-top: 72px;
+  }
+  /***porfolio grid**/
+  .group {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1530px;
+  }
+  .xtest {
+    max-width: 500px;
+  }
 }
-.col-two {
-  max-width: 900px;
-}
-.fullcol2 {
-  margin-top:25px;
-  margin-bottom:25px;
-}
-.col.push-left.full-width-col {
-  max-width: 530px;
-}
-.home-lead {
-    margin-left: 225px;
-}
-.lab-image {
-  margin-left: 0;
-}
-.fb-cta {
-  margin-top: 72px;
+@media (max-width:1746px) and (min-width: 1596px){
+  /***porfolio grid**/
+  .group {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1190px;
+  }
+  .xtest {
+    max-width: 385px;
+  }
 }
 
+@media (max-width: 1380px) and (min-width: 1327px){
+  /**Portfolio grid**/
+  .group {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1110px;
+  }
+  .xtest {
+    max-width: 360px;
+  }
 }
 
 @media (max-width: 840px) {
@@ -107,7 +165,7 @@ section {
 }
 
 @media (max-width: 640px) {
-  .grid .flex {
+  .grid .flex{
     display: block;
 
   }
