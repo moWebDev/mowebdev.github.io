@@ -98,6 +98,8 @@ section {
   margin-bottom: 2.6em;
 }
 
+
+
 @media (min-width:1595px) and (max-width: 2560px){
   .col {
     max-width: 450px;

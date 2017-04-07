@@ -590,6 +590,7 @@ label {
 }
 
 .project-title {
+  /*margin-top: 20px;*/
   font-size: 2rem;
   text-align: center;
   color: #605f68;
@@ -627,6 +628,16 @@ label {
 .card-i {
     border-radius: 5px 5px 0 0;
     width:100%;
+}
+.back {
+    display: none;
+}
+a.back.btn-light {
+    width: 67px;
+}
+a.back.btn-light.topbutton {
+    width: 67px;
+    margin-top: -40px;
 }
 
 @media (max-width: 1100px) {
@@ -682,6 +693,30 @@ label {
         display: block;
         transform: translateY(0%);
       }
+      .project-title {
+        margin-top: 20px;
+      }
+      .back {
+      display: block;
+      margin-left: 0.3em;
+}     .btn-light {
+	background: #033342;
+    padding: 7.5pt 11.25pt;
+    border-radius: 2.25pt;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 11pt;
+  	font-family: Roboto, serif;
+  	font-weight: 500;
+  	color: #eeeeee;
+    margin: 3.75pt;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
 
 }
 @media (min-width: 840px) and (max-width: 900px){
