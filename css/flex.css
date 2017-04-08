@@ -1,5 +1,5 @@
 
-.home-sections, .work-page {
+.home-sections, .work-page, .portfolio-item {
   margin-left: 200px;
   display: flex;
   flex: 1;
@@ -23,6 +23,10 @@ section {
   max-width: 620px;
   margin: 0 10px;
   /*background: honeydew;*/
+}
+
+.col-three {
+  max-width: 1080px
 }
 
 .col50 {
@@ -110,6 +114,9 @@ section {
   .col-two {
     max-width: 900px;
   }
+  .col-three {
+    max-width: 1100px;
+  }
   .fullcol2 {
     margin-top:25px;
     margin-bottom:25px;
@@ -161,7 +168,7 @@ section {
 }
 
 @media (max-width: 840px) {
-  .home-sections, .work-page {
+  .home-sections, .work-page, .portfolio-item {
     margin-left: 0;
   }
 }
