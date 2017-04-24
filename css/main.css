@@ -666,6 +666,9 @@ a.back.btn-light.topbutton {
   max-width: 100%;
 }
 
+.jammy-page {
+  background-color: #eeeeee;
+}
 
 @media (max-width: 1100px) {
   h2 {
