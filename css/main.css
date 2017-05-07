@@ -706,6 +706,26 @@ a.back.btn-light.topbutton {
   background-color: #eeeeee;
 }
 
+/***Project clipped apps****/
+.side-img {
+  max-width: 100%;
+}
+.col.bbc {
+  background-color: #29926c;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+}
+.bbc p {
+  font-size: 100%;
+  padding: 20px;
+}
+
+@media (min-width: 1360px){
+  .bbc p {
+    font-size: 127%;
+  }
+}
 @media (max-width: 1100px) {
   h2 {
     margin-left: -315px;
@@ -789,16 +809,29 @@ a.back.btn-light.topbutton {
       text-decoration: none;
     }
 
+    /***clippedapps***/
+    .bbc p {
+      font-size: 100%;
+    }
+
 }
 @media (min-width: 840px) and (max-width: 900px){
   .lab-image {
     margin-left: 0;
     max-width: 100%;
   }
+  .bbc p {
+    font-size: 85%;
+  }
 }
 @media (max-height: 750px) {
   nav {
     margin-top: 80px;
+  }
+}
+@media (max-width: 740px){
+  .bbc p {
+    font-size: 85%;
   }
 }
 @media (max-width: 640px) {
@@ -836,6 +869,10 @@ a.back.btn-light.topbutton {
 }
 .scr-mobile {
   padding: 0 100px;
+}
+.bbc p {
+  font-size: 100%;
+  margin: 27% 0;
 }
 }
 
