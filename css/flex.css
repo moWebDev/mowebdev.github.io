@@ -1,5 +1,5 @@
 
-.home-sections, .work-page, .portfolio-item {
+.home-sections, .work-page, .portfolio-item, .lab-page, .lab-item {
   margin-left: 200px;
   display: flex;
   flex: 1;
@@ -172,7 +172,7 @@ section {
 }
 
 @media (max-width: 840px) {
-  .home-sections, .work-page, .portfolio-item {
+  .home-sections, .work-page, .portfolio-item, .lab-page, .lab-item {
     margin-left: 0;
   }
 }

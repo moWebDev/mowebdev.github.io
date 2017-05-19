@@ -642,6 +642,12 @@ a.back.btn-light.topbutton {
     width: 67px;
     margin-top: -40px;
 }
+/********The lab page*******************/
+.lab-hero {
+  background-image: url(../images/the-lab-image.jpg);
+  background-position: center center;
+  background-size: cover;
+}
 
 /*****Project-indigo London****/
 .top-portfolio-item {
@@ -721,6 +727,59 @@ a.back.btn-light.topbutton {
   padding: 20px;
 }
 
+/******the lab page*****/
+a.links-projlab {
+  text-decoration: none;
+  color:#033342;
+
+}
+a.links-projlab:hover {
+  color: #49adc1;
+}
+.title-of-lab-proj {
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'lato', sans-serif;
+}
+
+/*****lab item page *****/
+.top-item-lab {
+    padding-top: 6%; /*Change on different screen size*/
+    background-color: #490719;
+}
+.lab-item-title {
+  text-align: center;
+  color: #eeeeee;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+}
+.lab-item-s1 p {
+  font-size: 16px;
+  text-align: justify;
+}
+.lab-item-s2 img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.container-double-img {
+    display: flex;
+    align-items: center;
+}
+.mobile-screenshot {
+  float: left;
+  width: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.lab-item-s2 p {
+  color: #333333;
+  margin-top: 30px;
+  font-size: 16px;
+  clear: both;
+}
+#small-text {
+  font-size: 30px;
+}
 @media (min-width: 1360px){
   .bbc p {
     font-size: 127%;
@@ -875,7 +934,13 @@ a.back.btn-light.topbutton {
   margin: 27% 0;
 }
 }
-
+@media (max-width:550px){
+  .mobile-screenshot {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}
 @media (max-width:420px){
   .scr-mobile{
     padding: 0px;
