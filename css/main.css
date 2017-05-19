@@ -79,6 +79,10 @@ header {
     nav ul li a:hover {
       color: #49adc1;
       text-decoration: none;
+      -webkit-transition:all .5s linear;
+      -moz-transition:all .5s linear;
+      -o-transition:all .5s linear;
+	    transition:all .5s linear;
     }
     nav ul li a:active, nav ul li a:focus {
       color: #16b3c6;
@@ -735,10 +739,14 @@ a.links-projlab {
 }
 a.links-projlab:hover {
   color: #49adc1;
+  -webkit-transition:all .5s linear;
+    -moz-transition:all .5s linear;
+    -o-transition:all .5s linear;
+	 transition:all .5s linear;
 }
 .title-of-lab-proj {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
   font-family: 'lato', sans-serif;
 }
 
