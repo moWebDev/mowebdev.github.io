@@ -879,6 +879,79 @@ a.links-projlab:hover {
     }
 
 }
+
+/******************footer*******************/
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+footer ul {
+  display: flex;
+  align-self: center;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  width:60px;
+  height: 60px;
+  background: #fff;
+  text-align: center;
+  line-height: 55px;
+  font-size: 30px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px #fff solid;
+  z-index: 1;
+}
+
+footer ul li  a .fa {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  -webkit-transitition:.5s;
+  -moz-transitition:.5s ;
+  -ms-transitition:.5s ;
+  -o-transitition:.5s ;
+  z-index: 3;
+}
+
+footer ul li a:hover .fa {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+footer ul li a:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: black;
+  transition: .5s;
+  -webkit-transitition:.5s;
+  -moz-transitition:.5s ;
+  -ms-transitition:.5s ;
+  -o-transitition:.5s ;
+  z-index: 2;
+}
+
+footer ul li a:hover:before {
+  top:0;
+}
+.copyright {
+  text-align: center;
+}
+
 @media (min-width: 840px) and (max-width: 900px){
   .lab-image {
     margin-left: 0;
@@ -947,6 +1020,14 @@ a.links-projlab:hover {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
+  }
+  /***footer**/
+  footer ul li a {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    font-size: 25px;
+      margin: 0 5px;
   }
 }
 @media (max-width:420px){
