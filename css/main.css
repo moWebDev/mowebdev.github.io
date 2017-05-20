@@ -217,8 +217,9 @@ header {
 h2 {
   color: #eeeeee;
   font-size: 40px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Roboto', sans-serif;/**just added*/
+  font-weight: 300;/**just added was 600*/
   line-height: 1;
   letter-spacing: 4px;
   margin-left: -360px;
@@ -231,9 +232,11 @@ h2 {
 }
 
 .home-lead {
-  font-size: 30px;
+  font-size: 32px; /**just added was 30px*/
   color: #eeeeee;
-  font-weight: 600;
+  /*font-weight: 600;*/
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300;/**just added*/
   line-height: 1.3;
   letter-spacing: 2px;
 }
@@ -252,8 +255,10 @@ h2 {
 .section-lead {
   color: #eeeeee;
   font-size: 36px;
-  font-family: 'Open Sans',sans-serif;
-  font-weight:600;
+  /*font-family: 'Open Sans',sans-serif;
+  font-weight:600;*/
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300;/**just added*/
 }
 p {
   color: #eeeeee;
@@ -304,6 +309,8 @@ p {
 }
 .home-cta {
   background-color: #0670a0;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
   display: block;
   font-size: 28px;
   text-align: center;
@@ -366,6 +373,8 @@ canvas#chartPortfolio {
 
 .work-cta {
   background-color: #3097c6;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
   display: block;
   font-size: 28px;
   text-align: center;
@@ -409,6 +418,8 @@ canvas#chartPortfolio {
 
 .thelab-cta {
   background-color: #00a89a;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
   margin-top: 30px;
   display: block;
   font-size: 28px;
@@ -454,6 +465,8 @@ canvas#chartPortfolio {
 
 .fb-cta {
   background-color: #8e303e;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
   margin-top: 30px;
   display: block;
   font-size: 28px;
@@ -525,6 +538,8 @@ label {
 }
 #sub {
   background-color: #033342;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
   margin-top: 30px;
   display: block;
   font-size: 28px;
