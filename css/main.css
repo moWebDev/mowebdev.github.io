@@ -611,6 +611,8 @@ label {
 .project-title {
   /*margin-top: 20px;*/
   font-size: 2rem;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
   text-align: center;
   color: #605f68;
 }
@@ -698,6 +700,8 @@ a.back.btn-light.topbutton {
 /**All portfolio pages**/
 .go-cta {
   background-color: #033342;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
   display: block;
   font-size: 28px;
   text-align: center;
@@ -762,7 +766,8 @@ a.links-projlab:hover {
 .title-of-lab-proj {
   text-align: center;
   margin-top: 25px;
-  font-family: 'lato', sans-serif;
+  font-family: 'Roboto', sans-serif; /**just added*/
+  font-weight: 300; /*just added*/
 }
 
 /*****lab item page *****/
