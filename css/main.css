@@ -467,7 +467,7 @@ canvas#chartPortfolio {
 
 
 .fb-cta {
-  background-color: #8e303e;
+  background-color: #29926c;
   font-family: 'Roboto', sans-serif; /**just added*/
   font-weight: 300; /*just added*/
   margin-top: 30px;
@@ -496,7 +496,7 @@ canvas#chartPortfolio {
 /************Contact *************/
 
 .contact {
-  background-color: #8e303e;
+  background-color: #29926c;
 }
 
 .contact-h {
@@ -522,13 +522,13 @@ form input, textarea {
 
 form input, select, textarea{
     color: #eeeeee;
-    background-color: #772935;
+    background-color: #24805f;
 }
 form textarea:focus, input:focus {
   border-top: none;
   border-left: none;
   border-right: none;
-  background-color: #a84957;
+  background-color: #37a980;
 }
 form textarea {
   height: 10em;
@@ -540,7 +540,7 @@ label {
   margin-bottom: 20px;
 }
 #sub {
-  background-color: #033342;
+  background-color: #113c49;
   font-family: 'Roboto', sans-serif; /**just added*/
   font-weight: 300; /*just added*/
   margin-top: 30px;
@@ -913,7 +913,7 @@ a.links-projlab:hover {
 
 /******************footer*******************/
 footer {
-  background-color: black;
+  background-color: #113c49;
   display: flex;
   flex-direction: column;
 }
@@ -967,7 +967,7 @@ footer ul li a:before {
   left: 0;
   width: 100%;
   height:100%;
-  background: black;
+  background: #113c49;
   transition: .5s;
   -webkit-transitition:.5s;
   -moz-transitition:.5s ;
