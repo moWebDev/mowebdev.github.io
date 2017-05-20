@@ -175,6 +175,7 @@ section {
   .home-sections, .work-page, .portfolio-item, .lab-page, .lab-item {
     margin-left: 0;
   }
+  
 }
 
 @media (max-width: 640px) {
