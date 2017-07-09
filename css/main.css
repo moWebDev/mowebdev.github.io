@@ -254,15 +254,10 @@ h2 {
 /*****About*****/
 .about {
   background-color: #034a60;
-   /*background-image: -webkit-linear-gradient(rgba(3,74,96,1) 0%, rgba(7,95,123,1) 100%);
-   background-image: -o-linear-gradient(rgba(3,74,96,1) 0%, rgba(7,95,123,1) 100%);
-   background-image: linear-gradient(rgba(3,74,96,1) 0%, rgba(7,95,123,1) 100%);*/
 }
 .section-lead {
   color: #eeeeee;
   font-size: 36px;
-  /*font-family: 'Open Sans',sans-serif;
-  font-weight:600;*/
   font-family: 'Roboto', sans-serif; /**just added*/
   font-weight: 300;/**just added*/
 }
@@ -322,7 +317,6 @@ p {
   text-align: center;
   padding: 0.4em 0;
   line-height: 1;
-  /*box-shadow: 0px 3px 10px rgba(0,0,0,0.2);*/
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transition: all 0.15s ease-in-out;
   -webkit-transition: all 0.15s ease-in-out;
@@ -386,7 +380,6 @@ canvas#chartPortfolio {
   text-align: center;
   padding: 0.4em 0;
   line-height: 1;
-  /*box-shadow: 0px 3px 10px rgba(0,0,0,0.2);*/
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transition: all 0.15s ease-in-out;
   -webkit-transition: all 0.15s ease-in-out;
@@ -1099,11 +1092,17 @@ footer ul li a:hover:before {
 .course-title {
   text-align: center;
 }
+.course-text {
+  color: #000000;
+}
 @media (min-width:640px) and (max-width:1590px){
   .part-b img {
     width: 90%;
   }
   .part-a p {
+    font-size: 14px;
+  }
+  .course-text {
     font-size: 14px;
   }
 }
