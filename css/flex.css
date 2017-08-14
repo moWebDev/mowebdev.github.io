@@ -158,7 +158,17 @@ section {
     max-width: 385px;
   }
 }
-
+/***added code***/
+@media(max-width: 1380px) and (min-width: 1280px) {
+  .group {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+  }
+  .p-list {
+    max-width: 342px;
+  }
+}
 @media (max-width: 1380px) and (min-width: 1327px){
   /**Portfolio grid**/
   .group {
