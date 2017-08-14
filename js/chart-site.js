@@ -1,22 +1,22 @@
 var testData = [
         {
-            value: 80,
+            value: 40,
             color: "#cbdc38",
             label: "CSS"
         },
 
         {
-            value: 80,
+            value: 40,
             color: "#07a0c3",
             label: "HTML"
         },
         {
-            value: 40,
+            value: 10,
             color: "#1286b7",
             label: "JavaScript"
         },
         {
-            value: 40,
+            value: 10,
             color: "#00c9b8",
             label: "JQuery"
         }
