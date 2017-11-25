@@ -216,7 +216,7 @@ header {
 
 /*****Top Section*******/
 .top-section {
-  background-image: url(../images/hero-image.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.45),rgba(121,89,136,.15)), url(../images/hero-image-2.jpg);
   background-position: center center;
   background-size: cover;
 }
